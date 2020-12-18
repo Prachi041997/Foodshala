@@ -1,0 +1,48 @@
+.brand_div{
+    min-width: 20px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    /* background-color: red; */
+}
+.brand_name{
+    padding: 0 10px;
+    border-right:  3px solid rgb(163, 163, 163);
+    /* font-family: 'product-sans'; */
+    color: #00A5EC;
+    display: flex;
+    align-items: center;
+}
+.brand_title{
+    padding-left: 10px;
+    color: #666666;
+    display: flex;
+    align-items: center;
+    /* background-color: #00A5EC; */
+}
+h6, h5{
+    margin: 0;
+}
+.brand_logodiv{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 20px; */
+}
+.brand_logodiv img {
+    width: 40px;
+    height: 40px;
+
+}
+.brand_div h1{
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: 300;
+        /* line-height: 70px; */
+        margin: 0;
+        color: #E9AD29;
+}

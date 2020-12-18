@@ -1,0 +1,88 @@
+.login_container{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    /* background-color: aquamarine; */
+}
+
+.login_admin, .login_customer{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    /* background-color: red; */
+}
+.login_admin {
+    align-items: flex-start;
+    border-right: 3px dashed #8f8e8e ;
+}
+.login_customer{
+    align-items: flex-end;
+}
+.login_admin h3, .login_customer h3{
+    color: #383838;
+    margin: 0;
+    font-weight: 400;
+}
+.login_admin h5, .login_customer h5{
+    color: #1d1d1d;
+    margin: 0;
+    font-weight: 400;
+}
+.login_admin h1, .login_customer h1{
+    /* color: #00A5EC; */
+    margin: 0;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.login_input{
+    border: none;
+    width: 300px;
+    height: 45px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 1px 3px 5px rgba(209, 208, 208, 0.705);
+    margin-top: 30px;
+}
+.login_submit{
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #00A5EC;
+    width: 300px;
+    padding: 10px 0;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.customer_signuplink{
+    font-weight: 400;
+    color:#383838;
+    margin-top: 15px;
+    text-decoration: none;
+}
+.login_admin_bgcolor{
+    background-color: rgb(32, 155, 104);
+}
+.login_admin_color{
+    color: #00A5EC;
+}
+.login_customer_bgcolor{
+    background-color: #00A5EC;
+}
+.login_customer_color{
+    color: rgb(32, 155, 104);
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    padding-left: 20px;
+  }
+/* .login_admin h2, .login_customer h2{
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+} */

@@ -1,0 +1,16 @@
+.admin_order{
+    width: 100%;
+    min-height: 80vh;
+    padding: 20px 150px;
+    ;
+}
+.admin_order h4{
+    color: #666666;
+    font-weight: 400;
+    margin: 0;
+}
+.admin_order h2{
+    color:  rgb(32, 155, 104);
+    font-weight: 400;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,56 @@
+.signup_container{
+    width: 100%;
+    height:100vh;
+    padding:40px 120px;
+
+    /* background-color: red; */
+}
+.signup_container h4{
+    color: #383838;
+    font-weight: 400;
+}
+.signup_container h1{
+    color: rgb(32, 155, 104);
+    font-weight: 400;
+    margin-top: 15px;
+}
+.signup_container h6{
+    color: #383838;
+    font-weight: 400;
+    margin-top: 30px;
+    font-size: 17px;
+}
+.resturant_bgcolor{
+    background-color: rgb(32, 155, 104);
+    margin-bottom: 20px;
+}
+
+.signup_one{
+    width: 40%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+    padding: 30px 30px;
+    overflow-y: scroll;
+}
+.signup_one::-webkit-scrollbar {
+    width: 0px;  
+    background: transparent;
+}
+
+.signup_one h2{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: 20px;
+    color: #3932ad;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.error {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #c03b23 ;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+}
